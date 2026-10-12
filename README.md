@@ -42,6 +42,9 @@ The repo covers the full workflow: model comparison (Phase 1), a band-selection 
 
 The model is RGB-only: a 13-band file is accepted, but only its red, green and blue bands reach the model. Non-8-bit GeoTIFFs are rescaled to 0–255 using the 1st–99th intensity percentiles.
 
+### Link to Download Free Satellite Images
+https://browser.dataspace.copernicus.eu/
+
 ## Setup
 
 The model file is stored with Git LFS, so install it **before cloning**. Downloading the repo as a ZIP from GitHub gives you a tiny pointer file instead of the real model.
