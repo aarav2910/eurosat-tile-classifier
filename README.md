@@ -1,4 +1,5 @@
-# EuroSAT Tile Classifier ### https://eurosat-tile-classifier.streamlit.app/
+# EuroSAT Tile Classifier 
+### https://eurosat-tile-classifier.streamlit.app/
 
 Classify a large satellite scene tile by tile and explore the result on an interactive map. A Streamlit app loads a trained **ConvNeXtTiny** RGB model, splits a scene into 64×64 tiles, predicts a land-cover class for every tile, and lets you click any tile to see its class (Forest, River, crop, etc.) and confidence.
 
